@@ -55,6 +55,7 @@ header {
     font-size: 35px;
     z-index: 101;
     cursor: pointer;
+    display: none;
 }
 
 #menu-toggle {
@@ -270,13 +271,11 @@ section {
         margin: 5px 0;
     }
 
-    #menu-toggle:checked + label.menu-icon-action + ul {
-        right: 3%;
-    }
-
     .hero-img img {
         width: 50%;
     }
 
-
+    .navlist.open{
+        right: 0;
+    }
 }
